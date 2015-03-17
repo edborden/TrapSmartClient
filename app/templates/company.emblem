@@ -1,0 +1,51 @@
+.container
+	.row
+
+		.col-md-5
+			h2.page-header You're in good company
+			p Thomas Watson, a licensed pest control and animal removal professional, knew that there had to a way to use technology to solve the problem of visiting traps. In 2006, Thomas formed TrapSmart with his partner James Burgio, an expert in the design of GPS tracking systems. Shortly thereafter, the original TrapSmart sensor was designed and manufactured.
+			p TrapSmart is proud to provide every customer with:
+			ul
+				li A free consultation to understand the situation and challenges
+				li A recommendation for a set up that is effective and economical
+				li Answer any questions about special needs or customizations
+				li A detailed, written quote for products and services plan
+				li Ongoing, free support to address any issues
+
+		.col-md-7
+			.embed-responsive.embed-responsive-16by9
+				iframe.embed-responsive-item src='http://www.youtube.com/embed/wgYdllcgWmo?HD=1;rel=0;showinfo=0'
+
+	.row
+
+		.col-sm-12
+			hr
+
+		.col-md-8
+			.embed-responsive.embed-responsive-16by9
+				iframe.embed-responsive frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=20%20Curtis%20Drive%2C%20Vernon%20Township%2C%20NJ%2C%20United%20States&key=AIzaSyBBo-PYcEg9uY71Bomzaggc6rV7ymr2Gbc&zoom=7"
+
+		.col-md-4.contact
+			p 
+				|20 Curtis Drive Vernon, NJ 07462
+			p
+				i.fa.fa-phone
+				|: (973) 907-0280
+			p
+				i.fa.fa-envelope-o
+				|:&nbsp
+				a href="mailto:info@trapsmart.com" info@trapsmart.com
+
+			h3 Send us a message
+
+			p: = input type="text" placeholder="Your Name" width="100%"
+
+			p: = input type="text" placeholder="Company Name"
+
+			p: = input type="text" placeholder="Phone Number"
+
+			p: = input type="text" placeholder="Email Address"
+
+			p: = textarea rows="7" placeholder="How can we help you?"
+
+

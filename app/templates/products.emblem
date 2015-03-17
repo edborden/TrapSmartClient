@@ -1,0 +1,142 @@
+.container
+	.row
+
+		.col-lg-12
+			h2.page-header Live Trap Monitoring - Convenient. Reliable. Compliant.
+
+		.col-md-6
+			p Regulations vary from state to state, but most require you to check a live trap every 24 hours. Time, gas and energy to check empty traps is just bad business.
+
+			p TrapSmart is the ideal tool for all types of wildlife trappers because it helps increase productivity and reduces downtime. Downtime checking empty traps or driving around are simply a waste of your time. TrapSmart lets you know when your trap needs attention. You get to it when you need to, do what you need to do and move on. Less time wasted, less stress on you and the wildlife.
+
+			p The TrapSmart remote monitoring system enables monitoring of multiple traps using advanced GPS technology. Trap sensors can be attached to virtually any trap, as long as it has a moving part. Once an animal triggers the trap, the traps fires and the TrapSmart sensor sends you an email or text messages directly to the your phone.
+
+			p *Not all states have approved remote trapping. Contact us to find out about trapping regulations in your state.
+
+		.col-md-6
+			.embed-responsive.embed-responsive-16by9
+				iframe.embed-responsive-item src="http://www.youtube.com/embed/UKLOTRZtS6s?HD=1;rel=0;showinfo=0"
+			p.text-center Watch how easy it is to connect any trap!
+		
+		.col-lg-12
+			h2.page-header Side by Side
+
+		.col-xs-12
+			table.table width="100%"
+				thead
+					tr
+						th style="width: 25%" &nbsp;
+						th style="width: 25%" Deluxe
+						th style="width: 25%" Deluxe GPS
+						th style="width: 25%" Worldwide
+					
+				tbody
+
+					tr
+						td &nbsp;
+						td: img.deluxe.img-responsive
+						td: img.deluxe.img-responsive
+						td: img.worldwide.img-responsive
+
+					tr
+						td Real-time, instantaneous notifications
+						td: i.fa.fa-check
+						td: i.fa.fa-check
+						td: i.fa.fa-check
+
+					tr
+						td Works with any trap
+						td: i.fa.fa-check
+						td: i.fa.fa-check
+						td: i.fa.fa-check
+
+					tr
+						td Always-on wireless communications
+						td 
+							i.fa.fa-check
+							|&nbsp;(Cell)
+						td 
+							i.fa.fa-check
+							|&nbsp;(Cell)
+						td 
+							i.fa.fa-check
+							|&nbsp;(Satellite)
+
+					tr
+						td Battery Health Monitoring
+						td: i.fa.fa-check
+						td: i.fa.fa-check
+						td: i.fa.fa-check
+
+					tr
+						td Connection Status Monitoring
+						td: i.fa.fa-check
+						td: i.fa.fa-check
+						td: i.fa.fa-check
+
+					tr
+						td Unlimited Email and Text Alerts
+						td: i.fa.fa-check
+						td: i.fa.fa-check
+						td: i.fa.fa-check
+
+					tr
+						td GPS Location Aware
+						td: i.fa.fa-close.text-warning
+						td: i.fa.fa-check
+						td: i.fa.fa-check
+
+					tr
+						td Multiple Trap Monitoring
+						td: i.fa.fa-check
+						td: i.fa.fa-check
+						td: i.fa.fa-close.text-warning
+
+					tr
+						td Power Source
+						td Long-life Battery
+						td 120v with Rechargeable Battery
+						td 120v with Rechargeable Battery
+
+					tr
+						td Battery Life
+						td 2 weeks
+						td 2 weeks
+						td 2 ½ year
+
+					tr
+						td Solar battery charging port
+						td: i.fa.fa-check
+						td: i.fa.fa-check
+						td: i.fa.fa-close.text-warning
+
+					tr
+						td System Price*
+						td $410
+						td $585
+						td $475		
+
+					tr
+						td Additional sensors*						
+						td $69
+						td $69
+						td n/a
+
+					tr
+						td Service Plans – 3 month**
+						td $90
+						td $105**
+						td $120						
+
+		.col-lg-12
+			h2.page-header Trap Smartly
+
+		.col-md-6
+			.embed-responsive.embed-responsive-16by9
+				iframe.embed-responsive-item src='http://www.youtube.com/embed/BXoJDwiUmkY?HD=1;rel=0;showinfo=0'
+			p.text-center 30 second Deluxe Control Unit overview
+
+		.col-md-6
+			.embed-responsive.embed-responsive-16by9
+				iframe.embed-responsive-item src="http://www.youtube.com/embed/In7L6wV6B4g?HD=1;rel=0;showinfo=0"
+			p.text-center TrapSmart Worldwide, go-anywhere coverage

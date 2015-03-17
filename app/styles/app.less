@@ -1,20 +1,42 @@
 @import "bower_components/bootstrap/less/bootstrap.less";
+@import "font-awesome";
 
-/*!
- * Start Bootstrap - Modern Business HTML Template (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
 
-/* Global Styles */
+@red: #C41300;
+
+@brand-primary: @red;
+
 html, body, body>div {height: 100%}
 
 body {
     padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
+nav {
+    background-color: white;
+}
+
 img.logo {
 	content: url('../assets/images/logo.png');
+    padding-top:4px;
+}
+
+.contact {
+    input {width:100%}
+    textarea {width:100%}
+}
+
+.fa-check {
+    color:green;
+}
+
+img.diagram {
+    content: url('../assets/images/diagram.jpg')
+}
+
+img.app1 {
+    content: url('../assets/images/app1.jpg');
+    border-radius: 50%;
 }
 
 .img-portfolio {
@@ -25,71 +47,112 @@ img.logo {
     opacity: 0.8;
 }
 
-/* Home Page Carousel */
-
-header.carousel {
-    height: 50%;
+img.deluxe {
+    content: url('../assets/images/deluxe.jpg')   
 }
 
-header.carousel .item,
-header.carousel .item.active,
-header.carousel .carousel-inner {
-    height: 100%;
+img.worldwide {
+    content: url('../assets/images/worldwide.jpg')   
 }
 
-header.carousel .fill {
-    width: 100%;
-    height: 100%;
-    background-position: center;
-    background-size: cover;
+img.urban {
+    content: url('../assets/images/urban.jpg')   
 }
 
-/* 404 Page Styles */
-
-.error-404 {
-    font-size: 100px;
+img.research {
+    content: url('../assets/images/research.jpg')   
 }
 
-/* Pricing Page Styles */
-
-.price {
-    display: block;
-    font-size: 50px;
-    line-height: 50px;
+img.pest {
+    content: url('../assets/images/pest.jpg')   
 }
 
-.price sup {
-    top: -20px;
-    left: 2px;
-    font-size: 20px;
+img.wildlife {
+    content: url('../assets/images/wildlife.jpg')   
 }
 
-.period {
-    display: block;
-    font-style: italic;
-}
+// CAROUSEL
 
-/* Footer Styles */
-
-footer {
-    margin: 50px 0;
-}
-
-/* Responsive Styles */
-
-@media(max-width:991px) {
-    .customer-img,
-    .img-related {
-        margin-bottom: 30px;
-    }
-}
-
-@media(max-width:767px) {
-    .img-portfolio {
-        margin-bottom: 15px;
+    header.carousel {
+        height: 50%;
     }
 
-    header.carousel .carousel {
-        height: 70%;
+    header.carousel .item,
+    header.carousel .item.active,
+    header.carousel .carousel-inner {
+        height: 100%;
     }
-}
+
+    .carousel1 {
+        background-image:url('../assets/images/carousel1.jpg')
+    }
+
+    .carousel2 {
+        background-image:url('../assets/images/carousel2.png')
+    }
+
+    .carousel3 {
+        background-image:url('../assets/images/carousel3.jpg')
+    }
+
+    header.carousel .fill {
+        width: 100%;
+        height: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+
+// BLOCKQUOTE
+
+    blockquote {
+        font-family: Georgia, serif;
+        font-size: 18px;
+        font-style: italic;
+        width: 500px;
+        margin: 0.25em 0;
+        padding: 0.25em 40px;
+        line-height: 1.45;
+        position: relative;
+        color: #383838;
+    }
+
+    blockquote:before {
+        display: block;
+        content: "\201C";
+        font-size: 80px;
+        position: absolute;
+        left: -20px;
+        top: -20px;
+        color: #7a7a7a;
+    }
+
+    blockquote cite {
+        color: #999999;
+        font-size: 14px;
+        display: block;
+        margin-top: 5px;
+    }
+     
+    blockquote cite:before {
+        content: "\2014 \2009";
+    }
+
+
+// RESPONSIVE STYLES
+
+    @media(max-width:991px) {
+        .customer-img,
+        .img-related {
+            margin-bottom: 30px;
+        }
+    }
+
+    @media(max-width:767px) {
+        .img-portfolio {
+            margin-bottom: 15px;
+        }
+
+        header.carousel .carousel {
+            height: 70%;
+        }
+    }

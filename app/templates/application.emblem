@@ -1,1 +1,27 @@
+nav.navbar.navbar-fixed-top
+	.container
+		.navbar-header
+			button.navbar-toggle type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+				span.sr-only Toggle navigation
+				span.icon-bar
+				span.icon-bar
+				span.icon-bar
+			link-to "index" 
+				img.logo
+
+		.collapse.navbar-collapse#bs-example-navbar-collapse-1
+			ul.nav.navbar-nav.navbar-right
+				li: link-to "products" |Products
+				li: link-to "applications" |Applications
+				li: link-to "company" |Company
+				li: link-to "news" |News
+				li: link-to "login" |Login
+				/li.dropdown
+				/	a.dropdown-toggle href="#" data-toggle="dropdown"
+				/		|Portfolio
+				/		b.caret
+				/	ul.dropdown-menu
+				/		li: link-to "ex1"
+				/		li: link-to "ex2"
+
 outlet

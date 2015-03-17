@@ -7,6 +7,7 @@ Router.map ->
 	@route 'products'
 	@route 'applications'
 	@route 'company'
+	@route 'news'
 	@route 'login'
 
 `export default Router`
