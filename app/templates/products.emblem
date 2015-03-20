@@ -26,17 +26,20 @@
 				thead
 					tr
 						th style="width: 25%" &nbsp;
-						th style="width: 25%" Deluxe
-						th style="width: 25%" Deluxe GPS
-						th style="width: 25%" Worldwide
+						th style="width: 25%" 
+							h3 Sensor
+						th style="width: 25%" 
+							h3 Sensor GPS
+						th style="width: 25%" 
+							h3 Sensor Satellite
 					
 				tbody
 
 					tr
 						td &nbsp;
-						td: img.deluxe.img-responsive
-						td: img.deluxe.img-responsive
-						td: img.worldwide.img-responsive
+						td: img.img-responsive src="assets/images/deluxe.jpg"
+						td: img.img-responsive src="assets/images/deluxe.jpg"
+						td: img.img-responsive src="assets/images/worldwide.jpg"
 
 					tr
 						td Real-time, instantaneous notifications
@@ -88,8 +91,12 @@
 
 					tr
 						td Multiple Trap Monitoring
-						td: i.fa.fa-check
-						td: i.fa.fa-check
+						td 
+							i.fa.fa-check
+							|&nbsp;($69 each add.)
+						td 
+							i.fa.fa-check
+							|&nbsp;($69 each add.)
 						td: i.fa.fa-close.text-warning
 
 					tr
@@ -115,12 +122,6 @@
 						td $410
 						td $585
 						td $475		
-
-					tr
-						td Additional sensors*						
-						td $69
-						td $69
-						td n/a
 
 					tr
 						td Service Plans – 3 month**

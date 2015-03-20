@@ -26,7 +26,7 @@
 				.tab-pane.fade.active.in#urban data-toggle="tab"
 					.col-md-12: h4 Urban Trapping
 					.col-md-6
-						p: img.urban.img-responsive
+						p: img.img-responsive src="assets/images/urban.jpg"
 						p
 							blockquote 
 								|In a highly populated area, getting to the trap before someone else does is very important. I rely on the immediate alerts from TrapSmart to get me to the trap right away.
@@ -43,7 +43,7 @@
 				.tab-pane.fade#research data-toggle="tab"
 					.col-md-12: h4 Wildlife Researchers
 					.col-md-6
-						p: img.research.img-responsive
+						p: img.img-responsive src="assets/images/research.jpg"
 						p
 							blockquote 
 								|With over 350 traps, I needed a reliable way to check the traps to ensure humane treatment for the animals in the extreme hot and cold weather. With the TrapSmart system, I can respond quickly and treat the animal fairly. TrapSmart is the tool of the future for our wildlife control business.
@@ -60,7 +60,7 @@
 				.tab-pane.fade#pest data-toggle="tab"
 					.col-md-12: h4 Pest Control Professionals
 					.col-md-6
-						p: img.pest.img-responsive
+						p: img.img-responsive src="assets/images/pest.jpg"
 						p
 							blockquote 
 								|I use TrapSmart on a regular basis with great success and would recommend it to any pest professional who is looking to reduce costs, improve performance and show compassion to the animals they trap.
@@ -76,7 +76,7 @@
 				.tab-pane.fade#wildlife data-toggle="tab"
 					.col-md-12: h4 Wildlife Control
 					.col-md-6
-						p: img.wildlife.img-responsive
+						p: img.img-responsive src="assets/images/wildlife.jpg"
 						p
 							blockquote 
 								|Thanks to collaboration, information-sharing and the efficient TrapSmart system, we are able to collect essential data on bird movements and distribution, and see precisely how well our wildlife management techniques are working.

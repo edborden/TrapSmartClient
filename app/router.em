@@ -8,6 +8,8 @@ Router.map ->
 	@route 'applications'
 	@route 'company'
 	@route 'news'
+	#@route 'post', {path: '/post/:post_id'}
 	@route 'login'
+	@route 'me'
 
 `export default Router`

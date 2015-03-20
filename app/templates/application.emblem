@@ -7,21 +7,26 @@ nav.navbar.navbar-fixed-top
 				span.icon-bar
 				span.icon-bar
 			link-to "index" 
-				img.logo
+				img.logo src="assets/images/logo.png"
 
 		.collapse.navbar-collapse#bs-example-navbar-collapse-1
 			ul.nav.navbar-nav.navbar-right
-				li: link-to "products" |Products
-				li: link-to "applications" |Applications
-				li: link-to "company" |Company
-				li: link-to "news" |News
-				li: link-to "login" |Login
-				/li.dropdown
-				/	a.dropdown-toggle href="#" data-toggle="dropdown"
-				/		|Portfolio
-				/		b.caret
-				/	ul.dropdown-menu
-				/		li: link-to "ex1"
-				/		li: link-to "ex2"
+				if session.loggedIn
+					|loggedIn
+				else
+					li: link-to "products" |Products
+					li: link-to "applications" |Applications
+					li: link-to "company" |Company
+					li: link-to "news" |News
+					li.dropdown
+						a.dropdown-toggle href="#" data-toggle="dropdown" Login
+						.dropdown-menu.login-dropdown
+							form
+								.form-group
+									= input class="form-control" type="text" placeholder="Email" value=email
+								.form-group
+									= input class="form-control" type="password" placeholder="Password" value=password
+								button.btn.btn-primary click="loginClick" Login
 
+ember-notify messageStyle='bootstrap'
 outlet
