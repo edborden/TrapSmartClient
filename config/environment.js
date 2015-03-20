@@ -7,8 +7,6 @@ module.exports = function(environment) {
     baseURL: '/',
     locationType: 'auto',
     apiHostName: 'http://localhost:3000',
-    redirectUri: 'http://localhost:4200',
-    torii: {providers: {}},
     APP: {},
     EmberENV: {FEATURES: {}}
   };
