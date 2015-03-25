@@ -19,8 +19,9 @@ nav.navbar.navbar-fixed-top
 					if session.me.globalAdmin
 						li data-toggle="tooltip" data-placement="bottom" title="Admin": link-to "admin"
 							i.fa-cog
-					li data-toggle="tooltip" data-placement="bottom" title="Map": link-to "map"
-						i.fa-map-marker
+					if session.me.company.premium	
+						li data-toggle="tooltip" data-placement="bottom" title="Map": link-to "map"
+							i.fa-map-marker
 					li data-toggle="tooltip" data-placement="bottom" title="Traps": link-to "traps"
 						i.fa-cube
 					li 

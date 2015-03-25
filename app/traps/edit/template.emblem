@@ -1,0 +1,11 @@
+.container
+	.row.row-spacer		
+		.col-md-2	
+			ul.list-group
+				li.list-group-item.list-group-item-success
+					|Trap Settings
+				link-to 'traps.edit.index' class="list-group-item" |Info
+				link-to 'traps.edit.notifications' class="list-group-item" |Notifications
+
+		.col-md-10
+			outlet

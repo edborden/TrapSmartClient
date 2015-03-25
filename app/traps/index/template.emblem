@@ -1,0 +1,16 @@
+.container
+	.row
+
+		.col-lg-12
+			h2.page-header 
+				= session.me.company.name
+				|&nbsp; Traps
+
+		each trap in model
+			.col-md-4
+				ul.list-group
+					li.list-group-item
+						trap-link trap=trap
+
+		else
+			.col-md-12: h4 None of your traps have been activated yet.

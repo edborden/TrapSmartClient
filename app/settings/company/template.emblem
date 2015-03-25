@@ -18,6 +18,9 @@ ul.list-group
 			.form-group
 				label for="postcodeInput" Zip
 				= input type="text" value=model.company.postcode id="postcodeInput" class="form-control"
+			.form-group
+				label for="premiumInput" Premium Account
+				= input type="checkbox" value=model.company.premium id="premiumInput" class="form-control"
 			button.btn.btn-primary.btn-sm
 				i.fa-save
 				|&nbsp;&nbsp;Save

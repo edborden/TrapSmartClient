@@ -19,12 +19,9 @@ ul.list-group
 					li.list-group-item
 						.row
 							each trap in model.traps
-								.col-md-6
-									link-to 'traps.edit' trap
-										h3.inline
-											i.fa-cube
-											|&nbsp;
-											= trap.name
+								unless trap.isNew
+									.col-md-6
+										trap-link trap=trap
 
 			.col-lg-6
 				li.list-group-item.list-group-item-success

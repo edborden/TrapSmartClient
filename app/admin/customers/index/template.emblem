@@ -2,7 +2,7 @@ ul.list-group
 	li.list-group-item
 		.row
 			each company in model
-				unless company.isNew
+				if company.showInIndex
 					.col-md-6
 						link-to 'admin.customers.edit' company
 							h3.inline = company.name

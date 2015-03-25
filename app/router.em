@@ -18,14 +18,15 @@ Router.map ->
 	# logged in
 	@route 'map'
 	@route 'traps', ->
-		@route 'edit', {path: 'traps/edit/:trap_id'}
+		@route 'edit', {path: 'edit/:trap_id'}, ->
+			@route 'notifications'
 	@route 'settings', ->
 		@route 'company'
 		@route 'password'
 	@route 'admin', ->
 		@route 'customers', ->
 			@route 'new'
-			@route 'edit', {path: 'admin/customers/edit/:company_id'}
+			@route 'edit', {path: 'edit/:company_id'}
 
 
 `export default Router`

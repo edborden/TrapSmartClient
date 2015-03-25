@@ -1,0 +1,5 @@
+link-to 'traps.edit' trap
+	h3.inline
+		i.fa-cube
+		|&nbsp;
+		= trap.name

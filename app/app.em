@@ -4,6 +4,8 @@
 
 Ember.MODEL_FACTORY_INJECTIONS = true
 
+L.Icon.Default.imagePath = 'images/'
+
 class App extends Ember.Application
 	modulePrefix: config.modulePrefix,
 	podModulePrefix: config.podModulePrefix,

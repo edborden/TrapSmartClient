@@ -5,5 +5,6 @@ class Trap extends DS.Model
 	hardwareId: attr()
 	company: DS.belongsTo 'company'
 	modelName: "Trap"
+	location: DS.belongsTo 'location'
 
 `export default Trap`
