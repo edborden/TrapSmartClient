@@ -20,15 +20,21 @@ class SessionService extends Ember.Object
 		localStorage.trapSmartToken = @token
 
 	openWithToken: (token) ->
-		@store.find('session', {token:token}).then( 
-			(response) => @openWithSession response
-			(error) => 
-				console.log 'openWithToken error',error
-				localStorage.clear() if error?
-		)
+		return new Ember.RSVP.Promise (resolve,reject) =>
+			@store.find('session', {token:token}).then( 
+				(response) => 
+					@openWithSession response.firstObject
+					resolve()
+				(error) => 
+					localStorage.clear() if error?
+					reject()
+			)
 
 	close: ->
-		localStorage.clear()
-		@model = null
+		return new Ember.RSVP.Promise (resolve,reject) =>
+			@model.destroyRecord().then =>
+				localStorage.clear()
+				@model = null
+				resolve()
 
 `export default SessionService`

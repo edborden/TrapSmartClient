@@ -6,36 +6,40 @@
 
 @brand-primary: @red;
 
-html, body, body>div {height: 100%}
+body {padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */}
 
-body {
-    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-}
+nav {background-color: white;}
 
-nav {
-    background-color: white;
-}
-
-img.logo {
-    padding-top:4px;
-}
+img.logo {padding-top:4px;}
 
 .contact {
     input {width:100%}
     textarea {width:100%}
 }
 
-.fa-check {
-    color:green;
+.inline {
+    display:inline-block;
 }
 
-.img-hover:hover {
-    opacity: 0.8;
+.badge {
+    margin-left: 5px;
 }
+
+.fa-check {color:green;}
+
+i {.fa}
 
 .login-dropdown {
     padding:15px;
 }
+
+.row-spacer {padding-top:20px}
+
+// MAP //
+
+    html, body, .leaflet-container, body>div {height: 100%}
+    .leaflet-popup-content-wrapper {color:black;}
+    .fill {height:100%}
 
 // CAROUSEL
 

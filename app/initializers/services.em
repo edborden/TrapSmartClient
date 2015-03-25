@@ -1,5 +1,5 @@
 `import SessionService from 'trap-smart-client/services/session'`
-#`import KeenService from 'math-flows-client/services/keen'`
+`import KeenService from 'trap-smart-client/services/keen'`
 
 initializer =
 	name:'services'
@@ -8,12 +8,12 @@ initializer =
 
 		#Register service objects
 		application.register 'service:session', SessionService, {singleton: true}
-		#application.register 'service:keen', KeenService, {singleton: true}
-		services = ['session']
+		application.register 'service:keen', KeenService, {singleton: true}
+		services = ['session','keen']
 
 		#Setup service objects
 		application.inject 'service:session', 'store', 'store:main'
-		#application.inject 'service:keen', 'session', 'service:session'
+		application.inject 'service:keen', 'session', 'service:session'
 
 		#Inject into app factories
 		['controller','route','adapter'].forEach (type) ->

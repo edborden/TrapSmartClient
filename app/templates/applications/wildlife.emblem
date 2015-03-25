@@ -1,0 +1,12 @@
+.col-md-12: h4 Wildlife Control
+.col-md-6
+	p: img.img-responsive src="assets/images/wildlife.jpg"
+	p
+		blockquote 
+			|Thanks to collaboration, information-sharing and the efficient TrapSmart system, we are able to collect essential data on bird movements and distribution, and see precisely how well our wildlife management techniques are working.
+			cite Gary Searing, Founder of Airport Wildlife Management International Inc.
+.col-md-6
+	p Wildlife Control professionals face a wide range of challenges. Weather, extreme temperatures, animal rights groups, and protecting of endangered species are just a few. Many times, wildlife control officers find the need to trap animals in remote regions, where access can be very difficult or dangerous.
+	p TrapSmart control units and sensors about built to withstand all kinds of abuse – extreme weather, stomping or pressure. Power source can be wireless so power supply is never an issue. TrapSmart Worldwide solves the problem of poor communication in remote areas with advanced pure satellite communications.
+	p TrapSmart remote trap monitoring systems offer effective and humane tools for wildlife control professionals.
+	p Recommended for researchers who trap raptors, deer, goats, endangered species and protected species.

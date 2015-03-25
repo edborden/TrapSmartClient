@@ -1,0 +1,39 @@
+ul.list-group
+		.row
+
+			.col-lg-6
+				li.list-group-item.list-group-item-success
+					|Add Trap
+				li.list-group-item
+					form
+						.form-group
+							label for="f" Hardware ID
+							= input type="text" value=hardwareId id="f" class="form-control"
+					button.btn.btn-primary.btn-sm click="addTrap"
+						i.fa-plus
+						|&nbsp;&nbsp;Add Trap
+
+				if model.traps
+					li.list-group-item.list-group-item-success
+						|Manage Traps
+					li.list-group-item
+						.row
+							each trap in model.traps
+								.col-md-6
+									link-to 'traps.edit' trap
+										h3.inline
+											i.fa-cube
+											|&nbsp;
+											= trap.name
+
+			.col-lg-6
+				li.list-group-item.list-group-item-success
+					|Edit Company Info
+				li.list-group-item
+					h2 = model.name
+					with model as company
+						partial 'common/company'
+				li.list-group-item
+					button.btn.btn-primary.btn-sm
+						i.fa-trash
+						|&nbsp;&nbsp;Delete Company

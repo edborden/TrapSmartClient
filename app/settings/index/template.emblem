@@ -1,0 +1,17 @@
+ul.list-group
+	li.list-group-item.list-group-item-success
+		|Edit Account Info
+
+	li.list-group-item
+		form
+			.form-group
+				label for="nameInput" Name
+				= input type="text" value=model.name id="nameInput" class="form-control"
+			.form-group
+				label for="emailInput" Email
+				= input type="text" value=model.email id="emailInput" class="form-control"
+	
+	li.list-group-item			
+		button.btn.btn-primary.btn-sm click="'save' model"
+			i.fa-save
+			|&nbsp;&nbsp;Save

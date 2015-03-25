@@ -1,0 +1,9 @@
+ul.list-group
+	li.list-group-item
+		.row
+			each company in model
+				unless company.isNew
+					.col-md-6
+						link-to 'admin.customers.edit' company
+							h3.inline = company.name
+							span.badge = company.traps.length

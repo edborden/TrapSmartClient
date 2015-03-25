@@ -4,85 +4,21 @@
 			h2.page-header Applications
 		
 		.col-lg-12
-			ul#myTab.nav.nav-tabs.nav-justified
-				li.active
-					a href="#urban" data-toggle="tab"
-						i.fa.fa-taxi
-						|&nbsp;&nbsp;Urban Trapping
-				li
-					a href="#research" data-toggle="tab"
-						i.fa.fa-institution
-						|&nbsp;&nbsp;Research
-				li
-					a href="#pest" data-toggle="tab"
-						i.fa.fa-paw
-						|&nbsp;&nbsp;Pest Control
-				li
-					a href="#wildlife" data-toggle="tab"
-						i.fa.fa-tree
-						|&nbsp;&nbsp;Wildlife Control
+			.btn-group.btn-group-justified
+				link-to 'applications.urban' class="btn btn-default"
+					i.fa.fa-taxi
+					|&nbsp;&nbsp;Urban Trapping
 
-			#myTabContent.tab-content
-				.tab-pane.fade.active.in#urban data-toggle="tab"
-					.col-md-12: h4 Urban Trapping
-					.col-md-6
-						p: img.img-responsive src="assets/images/urban.jpg"
-						p
-							blockquote 
-								|In a highly populated area, getting to the trap before someone else does is very important. I rely on the immediate alerts from TrapSmart to get me to the trap right away.
-								cite Jim Dreisacker, President & Owner of Westchester Wildlife
-					.col-md-6
-						p With continuing urban expansion, many animals are losing their natural habitats and look to find a way to survive in densely populated areas. Animals are smart and can turn garages, sheds, chimneys, and other easily accessible places into a new home. In addition to these available shelters, food in these highly populated areas is abundant. Litter, garbage cans and dumpsters are only a few of the many sources accessible to misplaced wildlife.
-						p Trappers in urban areas need quick, effective and humane removal of wildlife. Response time is very important in urban areas to because:
-						ul
-							li An animal in a cage is a magnet for attention. Curious onlookers, teens, trap raiders and whackos. You need to be the first one to get to the trap. With TrapSmart real time alerts, you will always know when a trap fires so you can get there before anyone else.
-							li Human treatment of wildlife. When trapping around people, you need to make sure you adhere to regulations. Removing an animal from a live trap within minutes significantly reduces the stress on the animal – helping you conform to humane treatment of wildlife.
-							li Wildlife is a health and safety risk. The sooner you can remove the animal from an populate area can reduce the risk property damage, disturbance of peace and health risks to the community.
-						p Recommended for Urban Trappers who trap raccoons, coyotes, bears, feral cats, rats, mice, bats, rodents, opossums, skunks, woodchucks, groundhogs, wild dogs, squirrels, moles… and other city dwelling critters.
+				link-to 'applications.research' class="btn btn-default"
+					i.fa.fa-institution
+					|&nbsp;&nbsp;Research
 
-				.tab-pane.fade#research data-toggle="tab"
-					.col-md-12: h4 Wildlife Researchers
-					.col-md-6
-						p: img.img-responsive src="assets/images/research.jpg"
-						p
-							blockquote 
-								|With over 350 traps, I needed a reliable way to check the traps to ensure humane treatment for the animals in the extreme hot and cold weather. With the TrapSmart system, I can respond quickly and treat the animal fairly. TrapSmart is the tool of the future for our wildlife control business.
-								cite Darcy Alkerton, acclaimed CWCP (Certified Wildlife Control Professional)
-					.col-md-6
-						p Working to study behavior and protect wildlife requires dedication and the right set of tools. Getting an animal out of danger, extreme temperature or removing a predator before trouble strikes, can be a daunting task.						
-						p Researchers needing a humane, economical and reliable way to capture wildlife will find TrapSmart the tool of choice.
-						p Response time is very important for researchers because:
-						ul
-							li The longer a bird or animal is in a cage the more anxious it becomes. Tagging adds additional stress. Minimize wildlife anxiety with real time alerts so you can release them as soon as possible.							
-							li Extreme temperatures are dangerous to wildlife and can even cause death. TrapSmart real time alerts maximizes the time for you to get to trap, reducing wildlife exposure to very hot or cold temperatures.
-						p TrapSmart remote trap monitoring systems offer effective and humane tools for wildlife researchers and biologists. Recommended for researchers who trap raptors, deer, goats, endangered species, and protected species.
+				link-to 'applications.pest' class="btn btn-default"
+					i.fa.fa-paw
+					|&nbsp;&nbsp;Pest Control
 
-				.tab-pane.fade#pest data-toggle="tab"
-					.col-md-12: h4 Pest Control Professionals
-					.col-md-6
-						p: img.img-responsive src="assets/images/pest.jpg"
-						p
-							blockquote 
-								|I use TrapSmart on a regular basis with great success and would recommend it to any pest professional who is looking to reduce costs, improve performance and show compassion to the animals they trap.
-								cite Jim Brancato, Affiliated Pest Control, Sparta, NJ
-					.col-md-6
-						p TrapSmart remote wireless monitoring can help you grow your pest control business. By offering additional services, you can increase the profitably of every visit and client. Using the time saving system, you will:
-						ul
-							li Reduce costs – time is money. The more time you save, the more time you have for billable services
-							li Improve performance – reliable systems make you look professional. Impress customers with advanced technology that reduces scheduling inconvenient visits and increases customer satisfaction.
-							li Show compassion – less time for animal in captivity shows you care about the stress on the animal and your customer.
-						p The options recommended for pest control professionals who trap birds, raccoons, cats, rats, mice, bats, rodents, opossums, skunks, woodchucks, groundhogs, wild dogs, squirrels, moles… and other invaders of homes and businesses.
+				link-to 'applications.wildlife' class="btn btn-default"
+					i.fa.fa-tree
+					|&nbsp;&nbsp;Wildlife Control
 
-				.tab-pane.fade#wildlife data-toggle="tab"
-					.col-md-12: h4 Wildlife Control
-					.col-md-6
-						p: img.img-responsive src="assets/images/wildlife.jpg"
-						p
-							blockquote 
-								|Thanks to collaboration, information-sharing and the efficient TrapSmart system, we are able to collect essential data on bird movements and distribution, and see precisely how well our wildlife management techniques are working.
-								cite Gary Searing, Founder of Airport Wildlife Management International Inc.
-					.col-md-6
-						p Wildlife Control professionals face a wide range of challenges. Weather, extreme temperatures, animal rights groups, and protecting of endangered species are just a few. Many times, wildlife control officers find the need to trap animals in remote regions, where access can be very difficult or dangerous.
-						p TrapSmart control units and sensors about built to withstand all kinds of abuse – extreme weather, stomping or pressure. Power source can be wireless so power supply is never an issue. TrapSmart Worldwide solves the problem of poor communication in remote areas with advanced pure satellite communications.
-						p TrapSmart remote trap monitoring systems offer effective and humane tools for wildlife control professionals.
-						p Recommended for researchers who trap raptors, deer, goats, endangered species and protected species.
+			outlet

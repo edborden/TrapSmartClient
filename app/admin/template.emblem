@@ -1,0 +1,12 @@
+.container
+	.row.row-spacer		
+		.col-md-2	
+			ul.list-group
+				li.list-group-item.list-group-item-success
+					|Admin
+				link-to 'admin.index' class="list-group-item" |Dashboard
+				link-to 'admin.customers.index' class="list-group-item" |Customers
+				link-to 'admin.customers.new' class="list-group-item" |Add Customer
+
+		.col-md-10
+			outlet

@@ -1,0 +1,16 @@
+form
+	.form-group
+		label for="a" Name
+		= input type="text" value=company.name id="a" class="form-control"
+	.form-group
+		label for="b" Address
+		= input type="text" value=company.address id="b" class="form-control"
+	.form-group
+		label for="c" Town
+		= input type="text" value=company.locality id="c" class="form-control"
+	.form-group
+		label for="d" State
+		= input type="text" value=company.region id="d" class="form-control"
+	.form-group
+		label for="e" Zip
+		= input type="text" value=company.postcode id="e" class="form-control"

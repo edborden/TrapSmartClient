@@ -1,0 +1,17 @@
+ul.list-group
+	li.list-group-item.list-group-item-success
+		|Change Password
+	li.list-group-item
+		form
+			.form-group
+				label for="oldPasswordInput" Old Password
+				= input type="password" value=model.password id="oldPasswordInput" class="form-control"
+			.form-group
+				label for="newPasswordInput" New Password
+				= input type="password" value=model.newPassword id="newPasswordInput" class="form-control"
+			.form-group
+				label for="newPasswordConfirmation" Confirm New Password
+				= input type="password" value=newPasswordConfirmation id="newPasswordConfirmation" class="form-control"
+			button.btn.btn-primary.btn-sm click="'save' model"
+				i.fa-save
+				|&nbsp;&nbsp;Change Password

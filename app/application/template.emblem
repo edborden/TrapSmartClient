@@ -12,14 +12,30 @@ nav.navbar.navbar-fixed-top
 		.collapse.navbar-collapse#bs-example-navbar-collapse-1
 			ul.nav.navbar-nav.navbar-right
 				if session.loggedIn
-					|loggedIn
+					li data-toggle="tooltip" data-placement="bottom" title="Settings": link-to "settings"
+						i.fa-user
+						|&nbsp;
+						session.me.name
+					if session.me.globalAdmin
+						li data-toggle="tooltip" data-placement="bottom" title="Admin": link-to "admin"
+							i.fa-cog
+					li data-toggle="tooltip" data-placement="bottom" title="Map": link-to "map"
+						i.fa-map-marker
+					li data-toggle="tooltip" data-placement="bottom" title="Traps": link-to "traps"
+						i.fa-cube
+					li 
+						a href="#" click="logout"  data-toggle="tooltip" data-placement="bottom" title="Logout"
+							i.fa-sign-out
 				else
 					li: link-to "products" |Products
-					li: link-to "applications" |Applications
+					li: link-to "applications.urban" |Applications
 					li: link-to "company" |Company
 					li: link-to "news" |News
 					li.dropdown
-						a.dropdown-toggle href="#" data-toggle="dropdown" Login
+						a.dropdown-toggle href="#" data-toggle="dropdown" 
+							i.fa-sign-in
+							|&nbsp;
+							|Login
 						.dropdown-menu.login-dropdown
 							form
 								.form-group

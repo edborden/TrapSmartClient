@@ -1,0 +1,15 @@
+.col-md-12: h4 Wildlife Researchers
+.col-md-6
+	p: img.img-responsive src="assets/images/research.jpg"
+	p
+		blockquote 
+			|With over 350 traps, I needed a reliable way to check the traps to ensure humane treatment for the animals in the extreme hot and cold weather. With the TrapSmart system, I can respond quickly and treat the animal fairly. TrapSmart is the tool of the future for our wildlife control business.
+			cite Darcy Alkerton, acclaimed CWCP (Certified Wildlife Control Professional)
+.col-md-6
+	p Working to study behavior and protect wildlife requires dedication and the right set of tools. Getting an animal out of danger, extreme temperature or removing a predator before trouble strikes, can be a daunting task.						
+	p Researchers needing a humane, economical and reliable way to capture wildlife will find TrapSmart the tool of choice.
+	p Response time is very important for researchers because:
+	ul
+		li The longer a bird or animal is in a cage the more anxious it becomes. Tagging adds additional stress. Minimize wildlife anxiety with real time alerts so you can release them as soon as possible.							
+		li Extreme temperatures are dangerous to wildlife and can even cause death. TrapSmart real time alerts maximizes the time for you to get to trap, reducing wildlife exposure to very hot or cold temperatures.
+	p TrapSmart remote trap monitoring systems offer effective and humane tools for wildlife researchers and biologists. Recommended for researchers who trap raptors, deer, goats, endangered species, and protected species.

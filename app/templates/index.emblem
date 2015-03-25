@@ -1,4 +1,0 @@
-if session.loggedIn
-	render 'me'
-else
-	partial 'front'

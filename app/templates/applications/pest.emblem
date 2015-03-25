@@ -1,0 +1,14 @@
+.col-md-12: h4 Pest Control Professionals
+.col-md-6
+	p: img.img-responsive src="assets/images/pest.jpg"
+	p
+		blockquote 
+			|I use TrapSmart on a regular basis with great success and would recommend it to any pest professional who is looking to reduce costs, improve performance and show compassion to the animals they trap.
+			cite Jim Brancato, Affiliated Pest Control, Sparta, NJ
+.col-md-6
+	p TrapSmart remote wireless monitoring can help you grow your pest control business. By offering additional services, you can increase the profitably of every visit and client. Using the time saving system, you will:
+	ul
+		li Reduce costs – time is money. The more time you save, the more time you have for billable services
+		li Improve performance – reliable systems make you look professional. Impress customers with advanced technology that reduces scheduling inconvenient visits and increases customer satisfaction.
+		li Show compassion – less time for animal in captivity shows you care about the stress on the animal and your customer.
+	p The options recommended for pest control professionals who trap birds, raccoons, cats, rats, mice, bats, rodents, opossums, skunks, woodchucks, groundhogs, wild dogs, squirrels, moles… and other invaders of homes and businesses.

@@ -1,0 +1,13 @@
+.container
+	.row.row-spacer		
+		.col-md-2	
+			ul.list-group
+				li.list-group-item.list-group-item-success
+					|Settings
+				link-to 'settings.index' class="list-group-item" |Account
+				link-to 'settings.password' class="list-group-item" |Password
+				if model.admin
+					link-to 'settings.company' class="list-group-item" |Company
+
+		.col-md-10
+			outlet

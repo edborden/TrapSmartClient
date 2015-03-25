@@ -1,0 +1,11 @@
+head-title 'TrapSmart Admin'
+head-description 'test description'
+
+ul.list-group
+	li.list-group-item
+		.row
+			.col-lg-6
+				session-count
+			.col-lg-6
+				div
+					referrers-chart
