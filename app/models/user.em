@@ -5,6 +5,7 @@ class User extends DS.Model
 	email: attr()
 	password: attr()
 	newPassword: attr()
+	newPasswordConfirmation: attr()
 	company: DS.belongsTo 'company'
 	globalAdmin: attr 'boolean'
 	admin: attr 'boolean'
