@@ -12,7 +12,7 @@ class SessionService extends Ember.Object
 					@openWithSession response
 					resolve "Logged in successfully"
 				(error) => 
-					reject error.errors.email.firstObject
+					reject error
 			)
 
 	openWithSession: (session) ->

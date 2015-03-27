@@ -4,7 +4,7 @@
 		.col-lg-12
 			h2.page-header 
 				= session.me.company.name
-				|&nbsp; Traps
+				| Traps
 
 		each trap in model
 			.col-md-4

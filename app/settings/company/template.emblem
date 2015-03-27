@@ -2,25 +2,5 @@ ul.list-group
 	li.list-group-item.list-group-item-success
 		|Edit Company Info
 	li.list-group-item
-		form
-			.form-group
-				label for="nameInput" Name
-				= input type="text" value=model.company.name id="nameInput" class="form-control"
-			.form-group
-				label for="addressInput" Address
-				= input type="text" value=model.company.address id="addressInput" class="form-control"
-			.form-group
-				label for="localityInput" Town
-				= input type="text" value=model.company.locality id="localityInput" class="form-control"
-			.form-group
-				label for="regionInput" State
-				= input type="text" value=model.company.region id="regionInput" class="form-control"
-			.form-group
-				label for="postcodeInput" Zip
-				= input type="text" value=model.company.postcode id="postcodeInput" class="form-control"
-			.form-group
-				label for="premiumInput" Premium Account
-				= input type="checkbox" value=model.company.premium id="premiumInput" class="form-control"
-			button.btn.btn-primary.btn-sm
-				i.fa-save
-				|&nbsp;&nbsp;Save
+		with model.company as company
+			partial 'common/company'

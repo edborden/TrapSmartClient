@@ -23,6 +23,7 @@ Router.map ->
 	@route 'settings', ->
 		@route 'company'
 		@route 'password'
+		@route 'globalnotifs'
 	@route 'admin', ->
 		@route 'customers', ->
 			@route 'new'

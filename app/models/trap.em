@@ -6,5 +6,6 @@ class Trap extends DS.Model
 	company: DS.belongsTo 'company'
 	modelName: "Trap"
 	location: DS.belongsTo 'location'
+	notifications: DS.hasMany 'notification'
 
 `export default Trap`

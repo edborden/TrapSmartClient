@@ -32,4 +32,8 @@ app.import('bower_components/bootstrap/js/dropdown.js');
 app.import('bower_components/bootstrap/js/carousel.js');
 app.import('bower_components/bootstrap/js/tooltip.js');
 
+// PhoneFormat
+app.import('bower_components/phoneformat.js/dist/phone-format.js');
+app.import('bower_components/phoneformat.js/dist/phone-format-global.js');
+
 module.exports = mergeTrees([app.toTree(),fontAwesomeFonts,leafletAssets]);

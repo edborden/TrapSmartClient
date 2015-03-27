@@ -7,6 +7,7 @@ class ApplicationRoute extends Ember.Route
 					@sessionSuccessHandler()
 				(error) =>
 					@sessionSuccessHandler()
+					@transitionTo 'index'
 			)
 		else
 			@sessionSuccessHandler()
@@ -31,7 +32,7 @@ class ApplicationRoute extends Ember.Route
 					@transitionTo 'index'
 					Ember.$('[data-toggle="tooltip"]').tooltip()
 				(error) =>
-					@notify.warning error
+					@handleErrorObj error
 					@transitionTo 'index'
 			)	
 		logout: ->
@@ -43,9 +44,14 @@ class ApplicationRoute extends Ember.Route
 			if model.isDirty
 				model.save().then(
 					(success) => @notify.warning model.modelName + " info saved."
-					(error) => 
-						for prop,array of error.errors
-							@notify.warning message for message in array
-				)			
+					(error) => @handleErrorObj error
+				)
+
+		destroyNotification: (notification) ->
+			notification.destroyRecord()
+
+	handleErrorObj: (obj) ->
+		for prop,array of obj.errors
+			@notify.warning message for message in array
 		
 `export default ApplicationRoute`

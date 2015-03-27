@@ -12,5 +12,6 @@ class Company extends DS.Model
 	trapSmart: ~> @id is '1'
 	showInIndex: ~> not @trapSmart and not @isNew
 	premium: attr 'boolean'
+	notifications: DS.hasMany 'notification'
 
 `export default Company`

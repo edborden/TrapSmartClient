@@ -8,6 +8,6 @@
 				link-to 'settings.password' class="list-group-item" |Password
 				if model.admin
 					link-to 'settings.company' class="list-group-item" |Company
-
+					link-to 'settings.globalnotifs' class="list-group-item" |Global Notifications
 		.col-md-10
 			outlet

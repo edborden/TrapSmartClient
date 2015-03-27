@@ -1,0 +1,12 @@
+each notification in model.notifications
+	p 
+		strong
+			= notification.mode
+			|&nbsp;:&nbsp;
+		= notification.target
+		|&nbsp;&nbsp;
+		i.text-primary.fa-close click="'destroyNotification' notification"
+else
+	p There are no notifications set for #{model.name}.
+
+notification-adder

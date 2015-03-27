@@ -1,0 +1,5 @@
+ul.list-group
+	li.list-group-item.list-group-item-success
+		|#{model.name} Notifications
+	li.list-group-item
+		partial 'common/notifications'

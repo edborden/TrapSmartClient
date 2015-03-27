@@ -14,13 +14,14 @@ class KeenService extends Ember.Service
 
 	logSession: ->
 		if @isProduction
-			if @session.loggedIn then user = @session.me.id else user = null
-			@client.addEvent 'session', 
-				#page: window.location.href
-				#time: new Date().toISOString()
-				referrer: document.referrer
-				agent: window.navigator.userAgent
-				user: user
+			Keen.ready =>
+				if @session.loggedIn then user = @session.me.id else user = null
+				@client.addEvent 'session', 
+					#page: window.location.href
+					#time: new Date().toISOString()
+					referrer: document.referrer
+					agent: window.navigator.userAgent
+					user: user
 
 	sessionWeekQuery: ~>
 		new Keen.Query "count_unique",

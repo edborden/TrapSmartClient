@@ -14,3 +14,11 @@ form
 	.form-group
 		label for="e" Zip
 		= input type="text" value=company.postcode id="e" class="form-control"
+	if session.me.globalAdmin
+		.form-group
+			label for="premiumInput" Premium Account
+			br
+			= input type="checkbox" checked=company.premium id="premiumInput"
+	button.btn.btn-primary.btn-sm
+		i.fa-save
+		|&nbsp;&nbsp;Save

@@ -1,0 +1,5 @@
+ul.list-group
+	li.list-group-item.list-group-item-success
+		|Global notifications are sent when ANY trap event occurs.
+	li.list-group-item
+		partial 'common/notifications'
