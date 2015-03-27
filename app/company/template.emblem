@@ -33,19 +33,20 @@
 				|: (973) 907-0280
 			p
 				i.fa.fa-envelope-o
-				|:&nbsp
+				|:&nbsp;
 				a href="mailto:info@trapsmart.com" info@trapsmart.com
 
 			h3 Send us a message
 
-			p: = input type="text" placeholder="Your Name" width="100%"
+			p: = input type="text" placeholder="Your Name" width="100%" value=name
 
-			p: = input type="text" placeholder="Company Name"
+			p: = input type="text" placeholder="Company Name" value=company
 
-			p: = input type="text" placeholder="Phone Number"
+			p: = input type="text" placeholder="Phone Number" value=phone
 
-			p: = input type="text" placeholder="Email Address"
+			p: = input type="text" placeholder="Email Address" value=email
 
-			p: = textarea rows="7" placeholder="How can we help you?"
-
-
+			p: = textarea rows="7" placeholder="How can we help you?" value=message
+			p: button.btn.btn-primary click="sendContact"
+				i.fa-send
+				|&nbsp;Send

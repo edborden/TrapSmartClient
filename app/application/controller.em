@@ -12,7 +12,7 @@ class ApplicationController extends Ember.Controller with EmberValidations.Mixin
 				user = {email:@email,password:@password}
 				@send 'login',user
 			else
-				@notify.warning @errors.email.firstObject				
+				@send 'errors',{email:@errors.email}
 
 	validations:
 		email:
