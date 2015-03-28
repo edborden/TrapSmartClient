@@ -1,10 +1,9 @@
-class MarkersLayer extends EmberLeaflet.CollectionLayer
-	content: ~> @controller.model.getEach 'location'
-	itemLayerClass: EmberLeaflet.MarkerLayer
+`import TileLayer from 'trap-smart-client/views/tile-layer'`
+`import TrapsLayer from 'trap-smart-client/views/traps-layer'`
 
 class TrapsMapView extends EmberLeaflet.MapView
 
-	childLayers: [MarkersLayer,EmberLeaflet.DefaultTileLayer,]
+	childLayers: [TrapsLayer,TileLayer]
 
 	didCreateLayer: ->
 		@_super()
