@@ -4,3 +4,6 @@ ul.list-group
 	li.list-group-item
 		with model.company as company
 			partial 'common/company'
+			button.btn.btn-primary.btn-sm click="'save' company"
+				i.fa-save
+				|&nbsp;&nbsp;Save

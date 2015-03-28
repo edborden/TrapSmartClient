@@ -30,7 +30,10 @@ ul.list-group
 					h2 = model.name
 					with model as company
 						partial 'common/company'
-				li.list-group-item
-					button.btn.btn-primary.btn-sm
-						i.fa-trash
-						|&nbsp;&nbsp;Delete Company
+						button.btn.btn-primary.btn-sm click="'save' company"
+							i.fa-save
+							|&nbsp;&nbsp;Save
+				//li.list-group-item
+				//	button.btn.btn-primary.btn-sm
+				//		i.fa-trash
+				//		|&nbsp;&nbsp;Delete Company
