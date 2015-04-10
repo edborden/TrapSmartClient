@@ -33,7 +33,7 @@ class NotificationAdderComponent extends Ember.Component with EmberValidations.M
 				@adding=false
 				@sendAction 'sendErrors',{target:@errors.target}
 
-	modes: ["Email","Text"]
+	modes: ["Text","Email"]
 
 	keyUp: -> @formatLocalTarget()
 

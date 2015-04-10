@@ -7,5 +7,7 @@ class Trap extends DS.Model
 	modelName: "Trap"
 	location: DS.belongsTo 'location'
 	notifications: DS.hasMany 'notification'
+	status: attr()
+	statusUpdated: attr()
 
 `export default Trap`

@@ -28,7 +28,7 @@ class ApplicationRoute extends Ember.Route
 			@transitionTo 'loading'
 			@session.openWithUser(user).then(
 				(success) =>
-					@notify.danger success					
+					@notify.warning success					
 					@transitionTo 'index'
 					Ember.$('[data-toggle="tooltip"]').tooltip()
 				(errors) =>
@@ -39,11 +39,11 @@ class ApplicationRoute extends Ember.Route
 			@transitionTo 'loading'
 			@session.close().then => 
 				@transitionTo 'index'
-				@notify.danger "Logged out successfully."
+				@notify.warning "Logged out successfully."
 		save: (model) ->
 			if model.isDirty
 				model.save().then(
-					(success) => @notify.danger model.modelName + " saved."
+					(success) => @notify.warning model.modelName + " saved."
 					(errors) => @send 'errors', errors.errors
 				)
 
@@ -52,6 +52,6 @@ class ApplicationRoute extends Ember.Route
 
 		errors: (errors) -> 
 			for prop,array of errors
-				@notify.danger message for message in array
+				@notify.warning message for message in array
 
 `export default ApplicationRoute`

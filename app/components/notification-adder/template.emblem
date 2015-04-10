@@ -2,7 +2,8 @@ if adding
 	view 'select' content=modes value=mode
 	= input type="text" value=target class="target-input"
 	button.btn.btn-primary.btn-xs click="save"
-		i.fa-save
+		i.fa-check
+		|&nbsp;Save
 else
 	button.btn.btn-primary.btn-xs click="add"
 		|&nbsp;&nbsp;Add	
