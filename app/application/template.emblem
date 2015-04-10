@@ -35,8 +35,7 @@ nav.navbar.navbar-fixed-top
 					li.dropdown
 						a.dropdown-toggle href="#" data-toggle="dropdown" 
 							i.fa-sign-in
-							|&nbsp;
-							|Login
+							|&nbsp;Login
 						.dropdown-menu.login-dropdown
 							form
 								.form-group

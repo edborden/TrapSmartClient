@@ -1,0 +1,15 @@
+.col-md-12: h4 Animal Welfare
+.col-md-6
+	p: img.img-responsive src="assets/images/welfare.jpg"
+	p
+		blockquote 
+			|This is the most useful tool for TNR (Trap, Neuter, Release) since drop traps and trap dividers. Whether we’re helping a homeowner catch a cat that slipped out, or managing a large colony, TrapSmart saves time and avoids stress for the cats AND the trappers.
+			cite Suzan Shaw, Found Animals Foundation
+.col-md-6
+	p Wait at home, in a coffee shop, right down the street in your car, or just a few hundred feet away and know instantly when a trap door has closed. TrapSmart can send an alert to your smartphone within seconds of a cat going into the trap.  The TrapSmart remote monitoring system eliminates the need for you to watch or hover over traps, saving you time and removing the human presence that may scare off cautious cats.
+	ul
+		li Save time - Visit the trap only when you get an alert. Eliminates trap watching.
+		li Trap Efficiently - Catch more cats when you can remove and quickly reset the trap.
+		li Remove Safely - Quick removal of cat reduces chance of harm to the cat from people or predators.
+		li Meet Best Practices - Helps you attend to a trap as soon as a cat enters.
+		li Be Cost Effective – Trap, Neuter, Release (TNR) is a cost effective solution to managing free-roaming cat and other animal populations.

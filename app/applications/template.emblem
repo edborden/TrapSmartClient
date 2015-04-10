@@ -21,4 +21,8 @@
 					i.fa.fa-tree
 					|&nbsp;&nbsp;Wildlife Control
 
+				link-to 'applications.welfare' class="btn btn-default"
+					i.fa.fa-heart
+					|&nbsp;&nbsp;Animal Welfare
+
 			outlet

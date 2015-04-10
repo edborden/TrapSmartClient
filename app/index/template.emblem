@@ -39,7 +39,7 @@ header#myCarousel.carousel.slide data-ride="carousel"
 				li Effective – three communication options provide coverage virtually anywhere on the globe
 			.row
 				.col-xs-9
-					p Whether you are a wildlife biologist, nuisance trapper, researcher, or pest control professional, TrapSmart has a solution for you. Whatever size animal, from mice to moose, we will help you be more productive with less effort.
+					p Whether you are a wildlife biologist, nuisance trapper, researcher, animal welfare or pest control professional, TrapSmart has a solution for you. Whatever size animal, from mice to moose, we will help you be more productive with less effort.
 				.col-xs-3
 					link-to "products" class="btn btn-primary" |View Products
 		.col-md-6
@@ -49,7 +49,7 @@ header#myCarousel.carousel.slide data-ride="carousel"
 		.col-lg-12
 			h2.page-header Applications
 
-		.col-md-3.col-sm-6
+		.col-md-2.col-sm-6
 			.panel.panel-default.text-center
 				.panel-heading
 					span.fa-stack.fa-5x
@@ -58,7 +58,7 @@ header#myCarousel.carousel.slide data-ride="carousel"
 				.panel-body
 					link-to 'applications.urban' class="btn btn-primary" |Urban Trapping
 
-		.col-md-3.col-sm-6
+		.col-md-2.col-sm-6
 			.panel.panel-default.text-center
 				.panel-heading
 					span.fa-stack.fa-5x
@@ -67,7 +67,7 @@ header#myCarousel.carousel.slide data-ride="carousel"
 				.panel-body
 					link-to 'applications.research' class="btn btn-primary" |Research
 
-		.col-md-3.col-sm-6
+		.col-md-2.col-sm-6
 			.panel.panel-default.text-center
 				.panel-heading
 					span.fa-stack.fa-5x
@@ -76,7 +76,7 @@ header#myCarousel.carousel.slide data-ride="carousel"
 				.panel-body
 					link-to 'applications.pest' class="btn btn-primary" |Pest Control
 
-		.col-md-3.col-sm-6
+		.col-md-2.col-sm-6
 			.panel.panel-default.text-center
 				.panel-heading
 					span.fa-stack.fa-5x
@@ -84,3 +84,12 @@ header#myCarousel.carousel.slide data-ride="carousel"
 						i.fa.fa-tree.fa-stack-1x.fa-inverse
 				.panel-body
 					link-to 'applications.wildlife' class="btn btn-primary" |Wildlife Control
+
+		.col-md-2.col-sm-6
+			.panel.panel-default.text-center
+				.panel-heading
+					span.fa-stack.fa-5x
+						i.fa.fa-circle.fa-stack-2x.text-primary
+						i.fa.fa-heart.fa-stack-1x.fa-inverse
+				.panel-body
+					link-to 'applications.welfare' class="btn btn-primary" |Animal Welfare

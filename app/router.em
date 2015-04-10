@@ -12,6 +12,7 @@ Router.map ->
 		@route 'research'
 		@route 'pest'
 		@route 'wildlife'
+		@route 'welfare'
 	@route 'company'
 	@route 'news'
 
