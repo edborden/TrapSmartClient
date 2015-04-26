@@ -14,3 +14,8 @@ ul.list-group
 			button.btn.btn-primary.btn-sm click="'save' model"
 				i.fa-save
 				|&nbsp;&nbsp;Save
+
+			if session.me.globalAdmin
+				button.btn.btn-primary.btn-sm click="destroyTrap"
+					i.fa-trash
+					|&nbsp;&nbsp;Delete
