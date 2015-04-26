@@ -7,22 +7,22 @@
 			.btn-group.btn-group-justified
 				link-to 'applications.urban' class="btn btn-default"
 					i.fa.fa-taxi
-					|&nbsp;&nbsp;Urban Trapping
+					.mobile-invisible &nbsp;&nbsp;Urban Trapping
 
 				link-to 'applications.research' class="btn btn-default"
 					i.fa.fa-institution
-					|&nbsp;&nbsp;Research
+					.mobile-invisible &nbsp;&nbsp;Research
 
 				link-to 'applications.pest' class="btn btn-default"
 					i.fa.fa-paw
-					|&nbsp;&nbsp;Pest Control
+					.mobile-invisible &nbsp;&nbsp;Pest Control
 
 				link-to 'applications.wildlife' class="btn btn-default"
 					i.fa.fa-tree
-					|&nbsp;&nbsp;Wildlife Control
+					.mobile-invisible &nbsp;&nbsp;Wildlife Control
 
 				link-to 'applications.welfare' class="btn btn-default"
 					i.fa.fa-heart
-					|&nbsp;&nbsp;Animal Welfare
+					.mobile-invisible &nbsp;&nbsp;Animal Welfare
 
 			outlet

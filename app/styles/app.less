@@ -12,6 +12,26 @@ nav {background-color: white;}
 
 img.logo {padding-top:4px;}
 
+@media (max-width: 767px) {
+    .mobile-invisible {display:none;}
+}
+@media (min-width: 768px) {
+    .desktop-invisible {display:none;}
+}
+
+.mobile-loggedin-nav {
+    margin-top:15px;
+    a {
+        padding:20px;
+    }
+}
+
+.navbar-toggle {
+    padding: 4px 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
 .contact {
     input {width:100%}
     textarea {width:100%}
@@ -87,39 +107,41 @@ i {.fa}
 
 // BLOCKQUOTE
 
-    blockquote {
-        font-family: Georgia, serif;
-        font-size: 18px;
-        font-style: italic;
-        width: 500px;
-        margin: 0.25em 0;
-        padding: 0.25em 40px;
-        line-height: 1.45;
-        position: relative;
-        color: #383838;
-    }
+    @media (min-width: 1000px) {
 
-    blockquote:before {
-        display: block;
-        content: "\201C";
-        font-size: 80px;
-        position: absolute;
-        left: -20px;
-        top: -20px;
-        color: #7a7a7a;
-    }
+        blockquote {
+            font-family: Georgia, serif;
+            font-size: 18px;
+            font-style: italic;
+            width: 500px;
+            margin: 0.25em 0;
+            padding: 0.25em 40px;
+            line-height: 1.45;
+            position: relative;
+            color: #383838;
+        }
 
-    blockquote cite {
-        color: #999999;
-        font-size: 14px;
-        display: block;
-        margin-top: 5px;
-    }
-     
-    blockquote cite:before {
-        content: "\2014 \2009";
-    }
+        blockquote:before {
+            display: block;
+            content: "\201C";
+            font-size: 80px;
+            position: absolute;
+            left: -20px;
+            top: -20px;
+            color: #7a7a7a;
+        }
 
+        blockquote cite {
+            color: #999999;
+            font-size: 14px;
+            display: block;
+            margin-top: 5px;
+        }
+         
+        blockquote cite:before {
+            content: "\2014 \2009";
+        }
+    }
 
 // SPINNER //
 

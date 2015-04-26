@@ -10,7 +10,7 @@ class Company extends DS.Model
 	modelName: "Company"
 	traps: DS.hasMany 'trap'
 	trapSmart: ~> @id is '1'
-	showInIndex: ~> not @trapSmart and not @isNew
+	showInIndex: ~> not @isNew
 	premium: attr 'boolean'
 	notifications: DS.hasMany 'notification'
 

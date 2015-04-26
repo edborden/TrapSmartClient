@@ -31,6 +31,7 @@ app.import('bower_components/ember-leaflet/dist/ember-leaflet.js');
 app.import('bower_components/bootstrap/js/dropdown.js');
 app.import('bower_components/bootstrap/js/carousel.js');
 app.import('bower_components/bootstrap/js/tooltip.js');
+app.import('bower_components/bootstrap/js/collapse.js');
 
 // PhoneFormat
 app.import('bower_components/phoneformat.js/dist/phone-format.js');

@@ -1,11 +1,24 @@
 nav.navbar.navbar-fixed-top
-	.container
+
+	if session.loggedIn
+		.container.mobile-loggedin-nav.desktop-invisible
+			link-to "settings"
+				i.fa-user.fa-2x
+			if session.me.globalAdmin
+				link-to "admin"
+					i.fa-cog.fa-2x
+			if session.me.company.premium	
+				link-to "map"
+					i.fa-map-marker.fa-2x
+			link-to "traps"
+				i.fa-cube.fa-2x
+			a href="#" click="logout"
+				i.fa-sign-out.fa-2x
+
+	.container class=session.loggedIn:mobile-invisible
 		.navbar-header
 			button.navbar-toggle type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
-				span.sr-only Toggle navigation
-				span.icon-bar
-				span.icon-bar
-				span.icon-bar
+				i.fa-bars.fa-3x
 			link-to "index" 
 				img.logo src="assets/images/logo.png"
 

@@ -1,6 +1,3 @@
-head-title 'TrapSmart Admin'
-head-description 'test description'
-
 ul.list-group
 	li.list-group-item
 		.row

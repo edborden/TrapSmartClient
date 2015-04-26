@@ -38,9 +38,9 @@ header#myCarousel.carousel.slide data-ride="carousel"
 				li Wireless – eliminates connection issues associated with power cords and chewed wires
 				li Effective – three communication options provide coverage virtually anywhere on the globe
 			.row
-				.col-xs-9
+				.col-md-9
 					p Whether you are a wildlife biologist, nuisance trapper, researcher, animal welfare or pest control professional, TrapSmart has a solution for you. Whatever size animal, from mice to moose, we will help you be more productive with less effort.
-				.col-xs-3
+				.col-md-3
 					link-to "products" class="btn btn-primary" |View Products
 		.col-md-6
 			img.img-responsive src="assets/images/diagram.jpg"
