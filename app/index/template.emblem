@@ -8,7 +8,7 @@ header#myCarousel.carousel.slide data-ride="carousel"
 		.item.active
 			.fill.carousel1
 			.carousel-caption
-				h2 Real-time trap alerts on any device
+				h2 Real-time trap notifications on any device
 		.item
 			.fill.carousel2
 			.carousel-caption

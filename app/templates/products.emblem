@@ -11,8 +11,6 @@
 
 			p The TrapSmart remote monitoring system enables monitoring of multiple traps using advanced GPS technology. Trap sensors can be attached to virtually any trap, as long as it has a moving part. Once an animal triggers the trap, the traps fires and the TrapSmart sensor sends you an email or text messages directly to the your phone.
 
-			p *Not all states have approved remote trapping. Contact us to find out about trapping regulations in your state.
-
 		.col-md-6
 			.embed-responsive.embed-responsive-16by9
 				iframe.embed-responsive-item src="http://www.youtube.com/embed/UKLOTRZtS6s?HD=1;rel=0;showinfo=0"
@@ -27,11 +25,11 @@
 					tr
 						th style="width: 25%" &nbsp;
 						th style="width: 25%" 
-							h3 Sensor
+							h3 820 Cell
 						th style="width: 25%" 
-							h3 Sensor GPS
+							h3 820 Cell/GPS
 						th style="width: 25%" 
-							h3 Sensor Satellite
+							h3 Satellite Solo
 					
 				tbody
 
@@ -90,20 +88,20 @@
 						td: i.fa.fa-check
 
 					tr
-						td Multiple Trap Monitoring
+						td Additional Sensors
 						td 
 							i.fa.fa-check
-							|&nbsp;($69 each add.)
+							|&nbsp;($85 each)
 						td 
 							i.fa.fa-check
-							|&nbsp;($69 each add.)
+							|&nbsp;($85 each)
 						td: i.fa.fa-close.text-warning
 
 					tr
 						td Power Source
-						td Long-life Battery
 						td 120v with Rechargeable Battery
 						td 120v with Rechargeable Battery
+						td Lithium Battery
 
 					tr
 						td Battery Life
@@ -118,16 +116,16 @@
 						td: i.fa.fa-close.text-warning
 
 					tr
-						td System Price*
-						td $410
-						td $585
-						td $475		
+						td System Price
+						td $495
+						td $535
+						td $495	
 
 					tr
-						td Service Plans – 3 month**
-						td $90
-						td $105**
-						td $120						
+						td Service Plans – 4 month
+						td $120
+						td $140
+						td $160					
 
 		.col-lg-12
 			h2.page-header Trap Smartly
