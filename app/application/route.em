@@ -6,8 +6,7 @@ class ApplicationRoute extends Ember.Route
 				(success) =>
 					@sessionSuccessHandler()
 				(error) =>
-					@sessionSuccessHandler()
-					@transitionTo 'index'
+					@sessionSuccessHandler()				
 			)
 		else
 			@sessionSuccessHandler()
@@ -17,11 +16,7 @@ class ApplicationRoute extends Ember.Route
 		Ember.$(".center-spinner").hide()
 		Ember.run.next @,->
 			Ember.$('[data-toggle="tooltip"]').tooltip()
-		if @session.loggedIn 
-			if @session.me.globalAdmin
-				@transitionTo 'admin'
-			else
-				@transitionTo 'map'
+		@transitionTo 'index'
 
 	actions:
 		login: (user) -> 

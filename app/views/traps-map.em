@@ -15,7 +15,7 @@ class TrapsMapView extends EmberLeaflet.MapView
 	markerArray: ~>
 		markerArray = []
 		@controller.model.forEach (trap) ->
-			markerArray.push trap.location.location
+			markerArray.push trap.location.location if trap.location?
 		return markerArray
 
 `export default TrapsMapView`
