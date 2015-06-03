@@ -1,6 +1,8 @@
 `import config from 'trap-smart-client/config/environment'`
 
 class ApplicationAdapter extends DS.ActiveModelAdapter
+
+	session:Ember.inject.service()
 	host: config.apiHostName
 
 	#crossdomain

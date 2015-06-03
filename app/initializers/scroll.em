@@ -1,10 +1,6 @@
-alreadyRun = false
-
 initializer =
 	name:'scroll'
 	initialize: ->
-		alreadyRun = true unless alreadyRun
-
 		Ember.Route.reopen
 			activate: ->
 				@_super()

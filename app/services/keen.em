@@ -2,6 +2,8 @@
 
 class KeenService extends Ember.Service
 
+	session:Ember.inject.service()
+
 	isProduction: ~> config.environment is 'production'
 
 	client: ~> new Keen
