@@ -4,7 +4,13 @@
 @red: #C41300;
 @brand-primary: @red;
 
-body {padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */}
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+footer {
+    padding:10px;
+}
 
 nav {background-color: white;}
 
@@ -61,9 +67,8 @@ i {.fa}
 
 // MAP //
 
-    html, body, .leaflet-container, body>div {height: 100%}
+    html, body, .leaflet-container, body>div.ember-view, .fill {height: 100%}
     .leaflet-popup-content-wrapper {color:black;}
-    .fill {height:100%}
 
 // CAROUSEL
 
