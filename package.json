@@ -38,6 +38,7 @@
     "ember-export-application-global": "^1.0.2",
     "ember-moment": "1.1.1",
     "ember-notify": "^3.1.4",
-    "ember-validations": "^2.0.0-alpha.3"
+    "ember-validations": "^2.0.0-alpha.3",
+    "ember-meta-meta":"*"
   }
 }
