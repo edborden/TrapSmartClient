@@ -1,5 +1,11 @@
 class NewsRoute extends Ember.Route
 
+	setupController: (controller,model) ->
+		@_super(controller,model)
+		@meta.update
+			title: "News TrapSmart News | TrapSmart Resources"
+			description: "Find out the latest news, access resources and learn about developments in the wildlife control industry."
+
 	model: -> 
 		[
 			{

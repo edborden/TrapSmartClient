@@ -23,13 +23,15 @@
 			table.table.product-lineup width="100%"
 				thead
 					tr
-						th style="width: 25%" &nbsp;
-						th style="width: 25%" 
+						th style="width: 20%" &nbsp;
+						th style="width: 20%" 
 							h3 820 Cell
-						th style="width: 25%" 
+						th style="width: 20%" 
 							h3 820 Cell/GPS
-						th style="width: 25%" 
+						th style="width: 20%" 
 							h3 Satellite Solo
+						th style="width: 20%" 
+							h3 Lite Alert
 					
 				tbody
 
@@ -38,15 +40,18 @@
 						td: img.img-responsive src="assets/images/deluxe.jpg"
 						td: img.img-responsive src="assets/images/deluxe.jpg"
 						td: img.img-responsive src="assets/images/worldwide.jpg"
+						td: img.img-responsive src="assets/images/worldwide.jpg"
 
 					tr
 						td Real-time, instantaneous notifications
 						td: i.fa.fa-check
 						td: i.fa.fa-check
 						td: i.fa.fa-check
+						td: i.fa.fa-check
 
 					tr
 						td Works with any trap
+						td: i.fa.fa-check
 						td: i.fa.fa-check
 						td: i.fa.fa-check
 						td: i.fa.fa-check
@@ -62,30 +67,37 @@
 						td 
 							i.fa.fa-check
 							|&nbsp;(Satellite)
+						td 
+							i.fa.fa-close.text-warning
+							|&nbsp;(Visual Alert)
 
 					tr
 						td Battery Health Monitoring
 						td: i.fa.fa-check
 						td: i.fa.fa-check
 						td: i.fa.fa-check
+						td Replace every 6 mo.
 
 					tr
 						td Connection Status Monitoring
 						td: i.fa.fa-check
 						td: i.fa.fa-check
 						td: i.fa.fa-check
+						td: i.fa.fa-close.text-warning
 
 					tr
 						td Unlimited Email and Text Alerts
 						td: i.fa.fa-check
 						td: i.fa.fa-check
 						td: i.fa.fa-check
+						td: i.fa.fa-close.text-warning
 
 					tr
 						td GPS Location Aware
 						td: i.fa.fa-close.text-warning
 						td: i.fa.fa-check
 						td: i.fa.fa-check
+						td: i.fa.fa-close.text-warning
 
 					tr
 						td Additional Sensors
@@ -96,23 +108,29 @@
 							i.fa.fa-check
 							|&nbsp;($85 each)
 						td: i.fa.fa-close.text-warning
+						td 
+							i.fa.fa-check
+							|&nbsp;($85 each)
 
 					tr
 						td Power Source
 						td 120v with Rechargeable Battery
 						td 120v with Rechargeable Battery
 						td Lithium Battery
+						td 110v / AC (car adapter)
 
 					tr
 						td Battery Life
 						td 2 weeks
 						td 2 weeks
 						td 2 ½ year
+						td n/a
 
 					tr
 						td Solar battery charging port
 						td: i.fa.fa-check
 						td: i.fa.fa-check
+						td: i.fa.fa-close.text-warning
 						td: i.fa.fa-close.text-warning
 
 					tr
@@ -120,12 +138,14 @@
 						td $495
 						td $535
 						td $495	
+						td $335
 
 					tr
 						td Service Plans – 4 month
 						td $120
 						td $140
-						td $160					
+						td $160
+						td: i.fa.fa-close.text-warning		
 
 		.col-lg-12
 			h2.page-header Trap Smartly

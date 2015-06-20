@@ -1,6 +1,6 @@
 .col-md-12: h4 Urban Trapping
 .col-md-6
-	p: img.img-responsive src="assets/images/urban.jpg"
+	p: img.img-responsive src="assets/images/urban.jpg" alt="TrapSmart remote monitoring systems help urban trappers with quick, effective and humane wildlife removal."
 	p
 		blockquote 
 			|In a highly populated area, getting to the trap before someone else does is very important. I rely on the immediate alerts from TrapSmart to get me to the trap right away.

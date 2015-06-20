@@ -1,6 +1,6 @@
 .col-md-12: h4 Wildlife Researchers
 .col-md-6
-	p: img.img-responsive src="assets/images/research.jpg"
+	p: img.img-responsive src="assets/images/research.jpg" alt="TrapSmart helps wildlife researchers with a humane, economical and reliable way to capture wildlife."
 	p
 		blockquote 
 			|With over 350 traps, I needed a reliable way to check the traps to ensure humane treatment for the animals in the extreme hot and cold weather. With the TrapSmart system, I can respond quickly and treat the animal fairly. TrapSmart is the tool of the future for our wildlife control business.

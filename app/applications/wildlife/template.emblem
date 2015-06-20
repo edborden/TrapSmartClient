@@ -1,6 +1,6 @@
 .col-md-12: h4 Wildlife Control
 .col-md-6
-	p: img.img-responsive src="assets/images/wildlife.jpg"
+	p: img.img-responsive src="assets/images/wildlife.jpg" alt="TrapSmart sensors are durable and offer wildlife control an effective and humane tool to capture wildlife."
 	p
 		blockquote 
 			|Thanks to collaboration, information-sharing and the efficient TrapSmart system, we are able to collect essential data on bird movements and distribution, and see precisely how well our wildlife management techniques are working.

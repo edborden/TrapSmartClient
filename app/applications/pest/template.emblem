@@ -1,6 +1,6 @@
 .col-md-12: h4 Pest Control Professionals
 .col-md-6
-	p: img.img-responsive src="assets/images/pest.jpg"
+	p: img.img-responsive src="assets/images/pest.jpg" alt="TrapSmart can help pest control professionals expand services with an effective way to capture and remove pests."
 	p
 		blockquote 
 			|I use TrapSmart on a regular basis with great success and would recommend it to any pest professional who is looking to reduce costs, improve performance and show compassion to the animals they trap.
