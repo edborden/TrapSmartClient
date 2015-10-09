@@ -8,4 +8,8 @@ class AdminCustomersEditController extends Ember.Controller
 			@send 'save',trap
 			@hardwareId = null
 
+		destroyCompany: ->
+			@model.destroyRecord()
+			@transitionToRoute 'admin.customers'
+
 `export default AdminCustomersEditController`

@@ -22,6 +22,10 @@ ul.list-group
 								unless trap.isNew
 									.col-md-6
 										trap-link trap=trap
+										if trap.status
+											trap.status
+											|&nbsp;
+											ago trap.statusUpdated
 
 			.col-lg-6
 				li.list-group-item.list-group-item-success
@@ -33,7 +37,10 @@ ul.list-group
 						button.btn.btn-primary.btn-sm click="'save' company"
 							i.fa-save
 							|&nbsp;&nbsp;Save
-				//li.list-group-item
-				//	button.btn.btn-primary.btn-sm
-				//		i.fa-trash
-				//		|&nbsp;&nbsp;Delete Company
+				
+				li.list-group-item.list-group-item-success
+					|Delete Company
+				li.list-group-item
+					button.btn.btn-primary.btn-sm click="destroyCompany"
+						i.fa-trash
+						|&nbsp;&nbsp;Delete Company
