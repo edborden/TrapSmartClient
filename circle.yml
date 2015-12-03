@@ -12,6 +12,9 @@ dependencies:
   cache_directories:
     - "node_modules"
     - "bower_components"
+test:
+  override:
+    - echo "skip tests"
 deployment:
   production:
     branch: master
