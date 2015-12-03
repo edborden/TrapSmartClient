@@ -32,7 +32,7 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-    ENV.apiHostName = 'http://trapsmart.herokuapp.com'
+    ENV.apiHostName = 'https://api.trapsmart.com'
   }
 
   return ENV;
