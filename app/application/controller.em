@@ -9,7 +9,7 @@ class ApplicationController extends Ember.Controller with EmberValidations.Mixin
 	actions:
 		loginClick: ->
 			if @isValid
-				user = {email:@email,password:@password}
+				user = { email: @email.toLowerCase(), password: @password }
 				@send 'login',user
 			else
 				@send 'errors',{email:@errors.email}
