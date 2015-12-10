@@ -25,6 +25,6 @@ initializer =
 		for image in images
 			#preloadImage = new Image()
 			#preloadImage = Ember.$('<img/>')[0]
-			$.get urlPrefix + "assets/images/" + image
+			$.get "assets/images/" + image
 
 `export default initializer`
