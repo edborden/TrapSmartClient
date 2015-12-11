@@ -9,9 +9,6 @@ dependencies:
   override:
     - npm i
     - bower i
-  cache_directories:
-    - "node_modules"
-    - "bower_components"
 test:
   override:
     - echo "skip tests"

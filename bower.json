@@ -15,6 +15,7 @@
     "bootstrap": "~3.3.1",
     "components-font-awesome": "~4.2.0",
     "ember-leaflet": "~0.6.1",
+    "leaflet-dist":"0.7.0",
     "keen-js": "~3.2.4",
     "phoneformat.js": "*",
     "ember-cli-moment-shim": "~0.0.3"
