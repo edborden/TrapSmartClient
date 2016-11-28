@@ -6,7 +6,7 @@ module.exports = function(environment) {
     environment: environment,
     baseURL: '/',
     locationType: 'auto',
-    apiHostName: 'http://localhost:3000',
+    apiHostName: 'https://trapsmart.herokuapp.com',
     APP: {},
     EmberENV: {FEATURES: {}}
   };
@@ -32,7 +32,7 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-    ENV.apiHostName = 'https://api.trapsmart.com'
+    ENV.apiHostName = 'https://trapsmart.herokuapp.com'
   }
 
   return ENV;
