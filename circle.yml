@@ -16,5 +16,5 @@ deployment:
   production:
     branch: master
     commands:
-      - ember build --environment=production
+      - ember build
       - firebase deploy --token $FIREBASE_TOKEN
