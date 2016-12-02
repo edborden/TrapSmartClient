@@ -20,17 +20,6 @@ var fontAwesomeFonts = pickFiles('bower_components/components-font-awesome/fonts
 // Keen.io
 app.import('bower_components/keen-js/dist/keen.min.js');
 
-// Leaflet
-app.import('bower_components/leaflet-dist/leaflet.js');
-app.import('bower_components/leaflet-dist/leaflet.css');
-var leafletAssets = pickFiles('bower_components/leaflet-dist/images', {
-	srcDir: '/',
-	destDir: '/images'
-});
-
-// Ember Leaflet
-app.import('bower_components/ember-leaflet/dist/ember-leaflet.js');
-
 // Bootstrap
 app.import('bower_components/bootstrap/js/dropdown.js');
 app.import('bower_components/bootstrap/js/carousel.js');
@@ -41,4 +30,4 @@ app.import('bower_components/bootstrap/js/collapse.js');
 app.import('bower_components/phoneformat.js/dist/phone-format.js');
 app.import('bower_components/phoneformat.js/dist/phone-format-global.js');
 
-module.exports = mergeTrees([app.toTree(),fontAwesomeFonts,leafletAssets]);
+module.exports = mergeTrees([app.toTree(),fontAwesomeFonts]);

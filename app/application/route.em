@@ -4,6 +4,7 @@ class ApplicationRoute extends Ember.Route
 		if localStorage.trapSmartToken
 			@session.openWithToken(localStorage.trapSmartToken).then(
 				(success) =>
+					console.log 'success'
 					@sessionSuccessHandler()
 				(error) =>
 					@sessionSuccessHandler()				
@@ -16,7 +17,7 @@ class ApplicationRoute extends Ember.Route
 		Ember.$(".center-spinner").hide()
 		Ember.run.next @,->
 			Ember.$('[data-toggle="tooltip"]').tooltip()
-		@transitionTo 'index'
+		console.log 'about to transition'
 
 	actions:
 		login: (user) -> 

@@ -1,5 +1,7 @@
 class MapRoute extends Ember.Route
 
-	model: -> @session.me.company.traps
+	model: ->
+		traps = @session.me.company.traps.getEach 'location'
+
 		
 `export default MapRoute`
