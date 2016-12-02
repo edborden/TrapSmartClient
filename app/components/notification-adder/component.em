@@ -1,6 +1,6 @@
 `import EmberValidations from 'ember-validations'`
 
-class NotificationAdderComponent extends Ember.Component with EmberValidations.Mixin
+class NotificationAdderComponent extends Ember.Component with EmberValidations
 
 	adding:false
 	mode:null

@@ -1,6 +1,6 @@
 `import EmberValidations from 'ember-validations'`
 
-class SettingsPasswordController extends Ember.ObjectController with EmberValidations.Mixin
+class SettingsPasswordController extends Ember.ObjectController with EmberValidations
 
 	actions:
 		saveModel: ->
